@@ -1,24 +1,4 @@
-# csvtobib
 
-# csvtobib
-
-Pequena ferramenta para converter um CSV com metadados de publicações em um arquivo BibTeX `.bib`.
-
-Uso:
-
-1. Instale dependências:
-
-   pip install -r requirements.txt
-
-2. Execute o script:
-
-   python csvtobib.py input.csv output.bib
-
-Colunas do CSV (case-insensitive):
-- title (obrigatório)
-- author (recomendado, autores como "Nome Sobrenome and ..." ou separados por vírgulas)
-- year
-- journal
 
 ## Programa de evolução para SAT (a.out)
 
@@ -91,8 +71,3 @@ pip install pandas matplotlib
 python scripts/plot_evolution.py
 ```
 
-Notes
------
-
-- The program currently loads the CNF per thread; if you want a single shared CNF object, request and I can change it to load once and share read-only.
-- The plotting script accepts any files matching `evolution_stats*.csv` and aligns by generation index.
