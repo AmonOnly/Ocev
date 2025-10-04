@@ -1,21 +1,5 @@
 # csvtobib
 
-Small utility to convert a CSV of publication metadata into a BibTeX `.bib` file.
-
-Usage:
-
-1. Install dependencies:
-
-   pip install -r requirements.txt
-
-2. Run the script:
-
-   python csvtobib.py input.csv output.bib
-
-CSV columns (case-insensitive):
-- title (required)
-- author (recommended, authors as "Firstname Lastname and ..." or separated by commas)
-```markdown
 # csvtobib
 
 Pequena ferramenta para converter um CSV com metadados de publicações em um arquivo BibTeX `.bib`.
