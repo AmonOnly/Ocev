@@ -1,0 +1,21 @@
+{
+  "best_chromosome": "1111110000",
+  "ST": 24,
+  "LX": 8,
+  "FO": 1040.0,
+  "violation_H": 0.0,
+  "generations": 100,
+  "population_size": 20,
+  "params": {
+    "p_cross": 0.9,
+    "mut_rate": 0.03,
+    "elitism": 1,
+    "tournament_k": 3,
+    "r_penalty": -1.0,
+    "seed": null
+  },
+  "files": {
+    "history_csv": "./out/history_best_per_gen.csv",
+    "convergence_png": "./out/convergencia.png"
+  }
+}
